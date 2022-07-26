@@ -1,0 +1,28 @@
+{
+	"Rowsets" : {
+		"@CachedTime" : "",
+		"@DateCreated" : "2022-07-25T11:30:31",
+		"@EndDate" : "2022-07-25T11:30:31",
+		"@StartDate" : "2022-07-25T10:30:31",
+		"@Version" : "15.3 SP1 Patch 19 (Jan 7, 2021)",
+		"Rowset" : {
+			"Columns" : {
+				"Column" : [ {
+					"@Description" : "PLANT",
+					"@MaxRange" : "1",
+					"@MinRange" : "0",
+					"@Name" : "PLANT",
+					"@SQLDataType" : "-9",
+					"@SourceColumn" : "PLANT"
+				}, {
+					"@Description" : "FACSTRTDATE",
+					"@MaxRange" : "1",
+					"@MinRange" : "0",
+					"@Name" : "FACSTRTDATE",
+					"@SQLDataType" : "12",
+					"@SourceColumn" : "FACSTRTDATE"
+				}]
+			}
+		}
+	}
+}

@@ -8,12 +8,20 @@
     <script type="text/javascript" src="columns.json"></script>
     <script src=".\xmlUIGenerator.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+		id="sap-ui-bootstrap"
+		src="https://sdk.openui5.org/resources/sap-ui-core.js"
+		data-sap-ui-theme="sap_belize"
+		data-sap-ui-libs="sap.m"
+		data-sap-ui-compatVersion="edge"
+		data-sap-ui-async="true"
+		data-sap-ui-onInit="module:sap/ui/demo/walkthrough/index"
+		data-sap-ui-resourceroots='{
+			"sap.ui.demo.walkthrough": "./"
+		}'>
+
+	</script>
 </head>
-<body>
-    <div>
-        <p id="par">
-            Tablo hazırlanıyor...
-        </p>
-    </div>
+<body class="sapUiBody" id = "content">
 </body>
 </html>
