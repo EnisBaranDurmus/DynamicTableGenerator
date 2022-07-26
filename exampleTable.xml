@@ -1,0 +1,8 @@
+<Table id = "Table" items="{path:'/'}"  alternateRowColors="true" visible="true" enableSelectAll="false" selectionMode="None">
+    <columns>
+        <!-- Table Columns -->
+    </columns>
+    <ColumnListItem vAlign="Middle">
+        <!-- Table Cells Listing -->
+    </ColumnListItem>
+</Table>
