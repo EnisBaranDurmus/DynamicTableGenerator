@@ -1,11 +1,16 @@
-<mvc:View
-   controllerName="sap.ui.demo.walkthrough.controller.App"
-   xmlns="sap.m"
-   xmlns:mvc="sap.ui.core.mvc"
-   xmlns:sap.ui.table="sap.ui.table">
-   
-   <Text id = "idText" text = "Tablo Oluşturuluyor..."/>
-   <Button
-        text ="Click me"
-        press =".onPress"/> 
+<mvc:View controllerName="sap.ui.demo.walkthrough.controller.App" xmlns="sap.m" xmlns:u="sap.ui.unified" xmlns:mvc="sap.ui.core.mvc" xmlns:sap.ui.table="sap.ui.table" xmlns:tnt="sap.tnt">
+        <tnt:ToolHeader>
+                <u:FileUploader
+                id="fileUploader"
+                name="myFileUpload"
+                tooltip="Upload your file to the local server"
+                buttonOnly="false"
+                placeholder="Select JSON File..."
+                uploadOnChange="true"
+                fileType="json"
+                uploadComplete="handleUploadComplete"/>
+                <HBox width="100%" justifyContent="End">
+                        <Button text="Export Data as XML" press=".onExport" />
+                </HBox>
+        </tnt:ToolHeader>
 </mvc:View>
